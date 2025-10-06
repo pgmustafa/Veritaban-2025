@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kullanıcı Tablosu</title>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 60%;
+        margin-bottom: 20px;
+        
+      }
+
+      th, td {
+        border: 1px solid ;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        
+      }
+
+      input[type="submit"] {
+        background-color: grey; 
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        
+      }
+
+     
+      input[type="submit"]:hover {
+        background-color: red; 
+      }
+            input[type="submit"]:hover {
+        background-color: red; 
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>KULLANICILAR!</h1>
+
+    <table>
+      <tr>
+        <th>Plunker</th>
+        <th>Ad Soyad</th>
+        <th>E-posta</th>
+        
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ahmet Yılmaz</td>
+        <td>ahmet@mail.com</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ayşe Kara</td>
+        <td>ayse@mail.com</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Mehmet Demir</td>
+        <td>mehmet@mail.com</td>
+      </tr>
+    </table>
+
+    <h2>Yeni Kullanıcı Ekle</h2>
+    <form>
+      Ad: <input type="text"><br><br>
+      Soyad: <input type="text"><br><br>
+      Email: <input type="email"><br><br>
+      Şifre: <input type="password"><br><br>
+      <input type="submit" value="Yolla">
+      <input type="submit" value="Geri Dön">
+
+    
+
+    </form>
+
+  </body>
+</html>
